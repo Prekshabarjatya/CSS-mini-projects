@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Business Card Styles */
+.business-card {
+  width: 300px;
+  background-color: #fffaf0; /* Light peach background */
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.full-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.designation {
+  font-style: italic;
+  color: #666;
+}
+
+.company {
+  color: #888;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.social-media a {
+  display: block;
+  margin: 5px 0;
+  color: #b22222; /* FireBrick red */
+}
