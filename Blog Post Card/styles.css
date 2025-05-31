@@ -1,0 +1,46 @@
+/* Blog Post Card Styles */
+.blog-post-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 350px; 
+  text-align: center; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+  font-family: Arial, sans-serif;
+}
+
+
+.post-img {
+  width: 100%;
+  display: block;
+  border-bottom: 4px solid #007BFF;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post-title {
+  color: #2C3E50;
+  margin: 15px 0;
+}
+
+.post-excerpt {
+  color: #5D6D7E;
+  margin: 10px 0 20px;
+}
+
+.read-more {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007BFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
